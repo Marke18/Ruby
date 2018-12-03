@@ -1,0 +1,26 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.8.1)
+    faraday (0.14.0)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.12.2)
+      faraday (>= 0.7.4, < 1.0)
+    hashie (3.5.7)
+    instagram-continued (1.4.0)
+      faraday (~> 0.11)
+      faraday_middleware
+      hashie (>= 3.5.1)
+      multi_json
+    multi_json (1.13.1)
+    multipart-post (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize (~> 0.8.1)
+  instagram-continued (~> 1.4)
+
+BUNDLED WITH
+   1.16.1
